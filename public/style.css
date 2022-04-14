@@ -12,10 +12,27 @@ html {
 body {
   padding: 0;
   margin: 0;
+  font-family: "Inter", sans-serif;
 }
 
 input,
 textarea,
 button {
   font-family: inherit;
+}
+
+.navbar {
+  height: 55px;
+  background-color: #f55a5a;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.navbar__image {
+  filter: brightness(0) invert(1);
+  margin-right: 8px;
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import globe from "../img/worldwide.png";
+import globe from "../img/globe.png";
 
 function Navbar() {
   return (
