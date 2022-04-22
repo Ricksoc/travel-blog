@@ -36,3 +36,15 @@ button {
   filter: brightness(0) invert(1);
   margin-right: 8px;
 }
+
+.section__cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 48px;
+}
+
+.card {
+  background-color: lightblue;
+  width: 550px;
+}
