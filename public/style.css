@@ -47,4 +47,14 @@ button {
 .card {
   background-color: lightblue;
   width: 550px;
+  display: flex;
+}
+
+.card__image {
+  width: 126px;
+  height: 168px;
+}
+
+.location {
+  flex-basis: 100%;
 }
