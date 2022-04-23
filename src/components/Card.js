@@ -2,7 +2,8 @@ import React from "react";
 import mapPin from "../img/map-pin.png";
 import Yosemite from "../img/Yosemite.jpg";
 
-function Card() {
+function Card(props) {
+  // console.log(props);
   return (
     <div className="card">
       <div className="card__content">
