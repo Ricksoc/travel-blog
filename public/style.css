@@ -45,16 +45,66 @@ button {
 }
 
 .card {
-  background-color: lightblue;
   width: 550px;
+}
+
+.card__content {
   display: flex;
+  padding-left: 39px;
 }
 
 .card__image {
   width: 126px;
   height: 168px;
+  border-radius: 5px;
+  margin-right: 19px;
 }
 
-.location {
-  flex-basis: 100%;
+.card__text {
+  margin-top: 12px;
+  font-size: 10.24px;
+  font-weight: 400;
+}
+
+.card__location__pin {
+  height: 10px;
+  color: #f55a5a;
+  margin-right: 4px;
+}
+
+.card__location__name {
+  letter-spacing: 0.17rem;
+  margin-right: 12px;
+}
+
+.card__location__link {
+  text-decoration: none;
+  color: #918e9b;
+}
+
+.card__name {
+  margin-top: 10px;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.card__dates {
+  font-size: 10.24px;
+  font-weight: 600;
+  margin-bottom: 9px;
+}
+
+.card__text {
+  line-height: 150%;
+  width: 326px;
+}
+
+.card__break {
+  width: 75%;
+  background-color: #918e93;
+  height: 1px;
+  border: none;
+  margin-top: 18px;
+  margin-bottom: 18px;
 }
