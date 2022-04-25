@@ -1,12 +1,11 @@
 import React from "react";
 import mapPin from "../img/map-pin.png";
-import Yosemite from "../img/Yosemite.jpg";
 
 function Card(props) {
   return (
     <div className="card">
       <div className="card__content">
-        <img className="card__image" src={Yosemite} alt="Yosemite Valley" />
+        <img className="card__image" src={`../img/${props.imageUrl}`} alt="Yosemite Valley" />
         <div className="card__text">
           <span className="location">
             <img src={mapPin} alt="Map Pin" className="card__location__pin" />
