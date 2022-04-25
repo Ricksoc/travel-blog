@@ -23,13 +23,13 @@ export default [
   },
 
   {
-    title: "Maddelena Island",
+    title: "Maddalena Island",
     location: "Sardinia",
     googleMapsUrl: "https://goo.gl/maps/Fu6hSBVowpX8tCc49",
     startDate: "16 September, 2015",
     endDate: "23 September, 2015",
     description:
-      "Maddalena Island is located a short boat ride from Sardinia. It's beaches are pristine and the sea only increases very gently in depth making it perfect for paddling.",
+      "Maddalena Island is located a short boat ride from Sardinia. Its beaches are pristine and the sea only increases very gently in depth making it perfect for paddling.",
     imageUrl: "Maddalena.JPG",
   },
 
